@@ -3,6 +3,9 @@ exports.__esModule = true;
 //importa as classes para serem usadas externamente
 var base_ship_1 = require("./base-ship");
 var starfigther_1 = require("./starfigther");
+//importando lodash
+var _ = require("lodash");
+console.log(_.pad(" Typescript Exemples ", 40, "*"));
 var ship = new base_ship_1.Spacecraft('hyperdrive');
 ship.jumpToHyperspace();
 var falcon = new starfigther_1.MillenniumFalcon();
